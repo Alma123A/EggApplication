@@ -18,7 +18,7 @@
         android:fontFamily="sans-serif-black"
         android:text="helppp!"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/ImageView_egg"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_green_egg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.091" />
 
     <ImageView
-        android:id="@+id/ImageView_egg"
+        android:id="@+id/ImageView_green_egg"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="64dp"
@@ -51,7 +51,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ImageView_egg"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_green_egg"
         tools:text="10" />
 
     <Button
