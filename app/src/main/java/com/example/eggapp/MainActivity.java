@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        counter = 10;
+         counter=10;
+        TextView counterTextView = findViewById(R.id.TextView_counter);
+        counterTextView.setText("" + counter);
+
     }
 }

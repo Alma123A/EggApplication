@@ -13,7 +13,6 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="62dp"
         android:layout_marginBottom="25dp"
         android:fontFamily="sans-serif-black"
         android:text="helppp!"
@@ -33,7 +32,7 @@
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="43dp"
         android:onClick="knock"
-        app:layout_constraintBottom_toTopOf="@+id/TextView_egg"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_counter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +40,7 @@
         app:srcCompat="@drawable/green_egg" />
 
     <TextView
-        android:id="@+id/TextView_egg"
+        android:id="@+id/TextView_counter"
         android:layout_width="44dp"
         android:layout_height="65dp"
         android:layout_marginBottom="26dp"
@@ -65,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextView_egg"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_counter"
         app:rippleColor="#F1B1B1"
         tools:ignore="MissingConstraints" />
 
